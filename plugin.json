@@ -1,0 +1,13 @@
+{
+    "name": "插件名称",
+    "key": "插件唯一值, 调用插件的时候使用如: oss",
+    "hook": "替换系统的某个功能可以为空, 如: upload, 会替换系统的上传功能",
+    "version": "1.0.0",
+    "description": "插件描述",
+    "author": "作者",
+    "logo": "assets/logo.png",
+    "readme": "README.md",
+    "config": {
+        "appId": "xxxxx"
+    }
+}
