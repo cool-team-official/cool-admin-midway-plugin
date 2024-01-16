@@ -1,5 +1,5 @@
-import * as Index from '../src/index'
-import pluginInfo from '../plugin.json'
+import * as Index from "../src/index";
+import pluginInfo from "../plugin.json";
 
 // 实例化插件
 const indexInstance = new Index.default();
@@ -7,4 +7,4 @@ const indexInstance = new Index.default();
 indexInstance.init(pluginInfo);
 
 // 调用插件方法
-indexInstance.show();
+indexInstance.demo();

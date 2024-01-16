@@ -6,8 +6,9 @@
     "moduleResolution": "Node",
     "noImplicitAny": false,
     "skipLibCheck": true,
-    "declaration": false,
+    "declaration": true,
     "resolveJsonModule":true,
+    "pretty": true,
     "outDir": "./dist"
   },
   "include": ["core", "src", "test"]

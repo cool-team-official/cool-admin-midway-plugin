@@ -1,22 +1,20 @@
 {
   "name": "cool-admin-midawy-plugin",
-  "version": "1.0.0",
+  "version": "7.0.0",
   "scripts": {
-    "test": "node scripts/build.js & node dist/test/index.js",
-    "build": "node scripts/build.js",
-    "release": "node scripts/build.js & node scripts/release.js"
+    "test": "cool-plugin-cli --build & node dist/test/index.js",
+    "build": "cool-plugin-cli --build",
+    "release": "cool-plugin-cli --release"
   },
   "engines": {
     "node": ">=16"
   },
   "dependencies": {
-    "axios": "^0.21.1"
+    "axios": "^1.6.5"
   },
+  "license": "MIT",
   "devDependencies": {
-    "@midwayjs/core": "^3.14.0",
-    "archiver": "^6.0.1",
-    "esbuild": "^0.19.11",
-    "esbuild-plugin-copy": "^2.1.1",
-    "typescript": "^4.0.0"
+    "@cool-midway/plugin-cli": "^7.0.0-beta4",
+    "typescript": "^5.3.3"
   }
 }
