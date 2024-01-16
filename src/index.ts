@@ -18,6 +18,6 @@ export default class CoolPlugin extends BasePlugin {
    */
   async demo() {
     const res = await axios.get("https://www.baidu.com");
-    console.log(res);
+    console.log(res.data);
   }
 }
