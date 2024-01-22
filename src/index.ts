@@ -5,7 +5,7 @@ import "./other";
 /**
  * 描述
  */
-export default class CoolPlugin extends BasePlugin {
+export class CoolPlugin extends BasePlugin {
   /**
    * 展示插件信息示例
    */
@@ -21,3 +21,6 @@ export default class CoolPlugin extends BasePlugin {
     console.log(res.data);
   }
 }
+
+// 导出插件实例， Plugin名称不可修改
+export const Plugin = CoolPlugin;
