@@ -14,7 +14,8 @@
 
 ```json
 {
-  "appId": "xxx的appId"
+  "appId": "xxx的appId",
+  "appSecret": "xxx的appSecret"
 }
 ```
 
