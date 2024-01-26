@@ -7,10 +7,14 @@ import "./other";
  */
 export class CoolPlugin extends BasePlugin {
   /**
-   * 展示插件信息示例
+   * 展示插件信息
+   * @param a 参数a
+   * @param b 参数b
+   * @returns 插件信息
    */
-  async show() {
-    console.log(this.pluginInfo);
+  async show(a, b) {
+    console.log("传参", a, b);
+    return this.pluginInfo;
   }
 
   /**
@@ -18,7 +22,7 @@ export class CoolPlugin extends BasePlugin {
    */
   async demo() {
     const res = await axios.get("https://www.baidu.com");
-    console.log(res.data);
+    return res.data;
   }
 }
 
