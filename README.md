@@ -54,3 +54,21 @@
     */
   async demo()
 ```
+
+### 调用示例
+
+```ts
+@Inject()
+pluginService: PluginService;
+
+// show
+await this.pluginService.invoke('test', 'show', 1, 2)
+
+// demo
+await this.pluginService.demo('test', 'demo')
+```
+
+### 更新日志
+
+- v1.0.0 (2024-01-29)
+  - 初始版本
