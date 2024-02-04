@@ -4,7 +4,13 @@
 
 [https://cool-js.com](https://cool-js.com)
 
-[插件开发教程](https://cool-js.com/admin/node/core/plugin.html#使用插件)
+[插件开发文档](https://cool-js.com/admin/node/core/plugin.html#使用插件)
+
+## 视频教程
+
+[1、插件开发](https://www.bilibili.com/video/BV1aa4y187jh/)
+
+[2、插件发布与使用](https://www.bilibili.com/video/BV1mw41157bx/)
 
 ## README 示例
 
