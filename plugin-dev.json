@@ -9,9 +9,9 @@
     "readme": "README.md",
     "config": {
         "Host": "spark-api.xf-yun.com",
-        "APPID": "xxxxx",
-        "APISecret": "xxxxx",
-        "APIKey": "xxxxx",
+        "APPID": "6b4affde",
+        "APISecret": "MGRlODE1YjZhYWI4YmJlOTJmMTY0Yjk3",
+        "APIKey": "c1b0fca8d89b5cc5696092c5f6681039",
         "Version": "v3.5"
     }
 }
