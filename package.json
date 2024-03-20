@@ -11,9 +11,9 @@
   },
   "license": "MIT",
   "devDependencies": {
-    "@types/node": "^20.11.28",
-    "@cool-midway/plugin-cli": "^7.1.4",
-    "axios": "^1.6.7",
+    "@cool-midway/plugin-cli": "^7.1.7",
+    "@types/node": "^20.11.30",
+    "axios": "^1.6.8",
     "decompress": "^4.2.1",
     "download": "^8.0.0",
     "jsonwebtoken": "^9.0.2",

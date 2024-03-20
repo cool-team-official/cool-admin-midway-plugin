@@ -7,4 +7,4 @@ const indexInstance = new Plugin();
 indexInstance.init(pluginInfo);
 
 // 调用插件方法
-indexInstance.demo();
+indexInstance.useCache();

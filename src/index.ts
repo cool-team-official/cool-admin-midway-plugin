@@ -18,6 +18,24 @@ export class CoolPlugin extends BasePlugin {
   }
 
   /**
+   * 使用缓存，使用cool-admin的缓存，开发的时候只是模拟
+   */
+  async useCache() {
+    await this.cache.set("a", "一个项目用COOL就够了");
+    const r = await this.cache.get("a");
+    console.log(r);
+  }
+
+  /**
+   * 调用其他插件
+   */
+  async usePlugin() {
+    // 获得其他插件，开发的时候无法调试，只有安装到cool-admin中才能调试
+    const plugin = await this.pluginService.getInstance("xxx");
+    console.log(plugin);
+  }
+
+  /**
    * 请求网络示例
    */
   async demo() {
