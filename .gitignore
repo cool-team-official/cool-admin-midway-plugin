@@ -3,3 +3,4 @@ dist/
 release/
 yarn.lock
 pnpm-lock.yaml
+cache/

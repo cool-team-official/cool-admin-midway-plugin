@@ -2,9 +2,12 @@ import { Plugin } from "../src/index";
 import pluginInfo from "../plugin.json";
 
 // 实例化插件
-const indexInstance = new Plugin();
+const instance = new Plugin();
 // 初始化插件
-indexInstance.init(pluginInfo);
+instance.init(pluginInfo);
 
-// 调用插件方法
-indexInstance.useCache();
+(async () => {
+  // 调用插件方法
+  const res = await instance.demo();
+  console.log(res);
+})();
