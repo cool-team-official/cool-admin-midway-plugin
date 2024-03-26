@@ -7,6 +7,13 @@ import "./other";
  */
 export class CoolPlugin extends BasePlugin {
   /**
+   * 插件已就绪，注意：单例插件只会执行一次，非单例插件每次调用都会执行
+   */
+  async ready() {
+    console.log("插件就绪");
+  }
+
+  /**
    * 展示插件信息
    * @param a 参数a
    * @param b 参数b

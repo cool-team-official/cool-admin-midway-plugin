@@ -2,6 +2,7 @@
     "name": "测试",
     "key": "test",
     "hook": "",
+    "singleton": false,
     "version": "1.0.0",
     "description": "插件描述",
     "author": "作者",
