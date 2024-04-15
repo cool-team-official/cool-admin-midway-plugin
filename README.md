@@ -67,15 +67,18 @@
 @Inject()
 pluginService: PluginService;
 
+// 获取插件实例
+const instance = await this.pluginService.getInstance('test');
+
 // 调用show
-await this.pluginService.invoke('test', 'show', 1, 2);
+await instance.show(1, 2);
 
 // 调用demo
-await this.pluginService.invoke('test', 'demo');
+await instance.demo();
 
 ```
 
 ### 更新日志
 
-- v1.0.0 (2024-01-29)
+- v1.0.0 (2024-04-15)
   - 初始版本
