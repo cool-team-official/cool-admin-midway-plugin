@@ -1,5 +1,6 @@
 import { BasePlugin } from "@cool-midway/plugin-cli";
 import axios from "axios";
+import fs from "fs";
 import "./other";
 
 /**
@@ -48,6 +49,16 @@ export class CoolPlugin extends BasePlugin {
   async demo() {
     const res = await axios.get("https://www.baidu.com");
     return res.data;
+  }
+
+  /**
+   * 读取文件示例
+   */
+  async readFile() {
+    // 如果是本地开发，filePath指向的是插件的根目录的文件
+    const { filePath } = this.pluginInfo.config;
+    const result = fs.readFileSync(filePath);
+    return result.toString();
   }
 }
 
