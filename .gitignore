@@ -4,3 +4,4 @@ release/
 yarn.lock
 pnpm-lock.yaml
 cache/
+.DS_Store

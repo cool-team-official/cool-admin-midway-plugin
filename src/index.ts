@@ -2,6 +2,7 @@ import { BasePlugin } from "@cool-midway/plugin-cli";
 import axios from "axios";
 import fs from "fs";
 import "./other";
+import { MidwayWebRouterService } from "@midwayjs/core";
 
 /**
  * 描述
